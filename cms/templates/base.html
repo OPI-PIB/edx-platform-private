@@ -10,12 +10,13 @@
 <%!
 from django.utils.translation import ugettext as _
 from django.core.urlresolvers import reverse
-from openedx.core.djangoapps.util.user_messages import PageLevelMessages
+from openedx.core.djangoapps.util.user_messages import PageLevelMessages, UserMessage, UserMessageType
 from openedx.core.djangolib.js_utils import (
     dump_js_escaped_json, js_escaped_string
 )
 from openedx.core.djangolib.markup import HTML
 from openedx.core.release import RELEASE_LINE
+from status.status import get_site_status_msg
 %>
 
 <%page expression_filter="h"/>
@@ -87,6 +88,10 @@ from openedx.core.release import RELEASE_LINE
 
       <%
       banner_messages = list(PageLevelMessages.user_messages(request))
+      course_id = course.id if course else None
+      site_status_message = get_site_status_msg(course_id)
+      if site_status_message:
+            banner_messages.insert(0, UserMessage(UserMessageType.WARNING, site_status_message))
       %>
 
       % if banner_messages:
