@@ -2,11 +2,11 @@
 # Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2021.
-#
+# 
 # Translators:
 # Maciej Kolankowski <maciej.kolankowski@opi.org.pl>, 2020
-# krystianlygas <krystian.lygas@gmail.com>, 2020
 # Agata Miszkurka <agata.miszkurka@opi.org.pl>, 2021
+# krystianlygas <krystian.lygas@gmail.com>, 2021
 # Emilia Dolega <emilia.dolega@opi.org.pl>, 2021
 # 
 msgid ""
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2020-08-19 11:04+0000\n"
 "Last-Translator: Emilia Dolega <emilia.dolega@opi.org.pl>, 2021\n"
 "Language-Team: Polish (https://www.transifex.com/navoica/teams/104253/pl/)\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
@@ -887,7 +887,7 @@ msgstr ""
 "{img_html}{div_start}{h2_start}Aktywuj swoje konto{h2_end}Zanim uzyskasz "
 "możliwość zapisania się na kurs,{strong_start} musisz aktywować swoje "
 "konto{strong_end}. Na podany adres e-mail wysłaliśmy wiadomość z linkiem "
-"aktywacyjnym{p_start}Jeśli nie otrzymałeś/aś wiadomości, sprawdź folder "
+"aktywacyjnym.{p_start}Jeśli nie otrzymałeś/aś wiadomości, sprawdź folder "
 "SPAM.{p_end}{div_end}"
 
 #: common/djangoapps/student/views/management.py
@@ -1902,7 +1902,7 @@ msgstr "Pola wyboru"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Multiple Choice"
-msgstr "Wielokrotnego wyboru"
+msgstr "Jednokrotnego wyboru"
 
 #. Translators: 'shuffle' and 'answer-pool' are attribute names and should not
 #. be translated.
@@ -2967,7 +2967,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Disable Progress Graph"
-msgstr "Wyłącz pasek postępu"
+msgstr "Wyłącz wykres postępu"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
