@@ -194,7 +194,7 @@ msgstr "(tylko do odczytu)"
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 #: common/static/bundles/CourseOrLibraryListing.js
 msgid "Re-run Course"
-msgstr "Kontynuuj kurs"
+msgstr "Wznów kurs"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 #: common/static/bundles/CourseOrLibraryListing.js
