@@ -231,6 +231,15 @@ class CapaFields(object):
                "or to report an issue, please contact moocsupport@mathworks.com"),
         scope=Scope.settings
     )
+    show_submit_button = Boolean2(
+        help=_("Determines whether a 'Submit' button is shown so the user may send their answer. "
+               "A default value can be set in Advanced Settings."),
+        default=True,
+        scope=Scope.settings,
+        display_name=_("Show Submit Button"),
+        values=({'display_name': "Tak", "value": True},
+                {'display_name': "Nie", "value": False})
+    )
 
 
 class CapaMixin(ScorableXBlockMixin, CapaFields):
@@ -746,6 +755,7 @@ class CapaMixin(ScorableXBlockMixin, CapaFields):
             'answer_notification_message': answer_notification_message,
             'has_saved_answers': self.has_saved_answers,
             'save_message': save_message,
+            'submit_button': self.show_submit_button,
         }
 
         html = self.runtime.render_template('problem.html', context)

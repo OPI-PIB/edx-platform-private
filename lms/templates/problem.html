@@ -27,9 +27,11 @@ from openedx.core.djangolib.markup import HTML
     % endif
 
     <div class="submit-attempt-container">
+      % if submit_button:
       <button type="button" class="submit btn-brand btn btn-sm btn-primary" data-submitting="${ submit_button_submitting }" data-value="${ submit_button }" data-should-enable-submit-button="${ should_enable_submit_button }" aria-describedby="submission_feedback_${short_id}" ${'' if should_enable_submit_button else 'disabled'}><i class="fas fa-check"></i>
           <span class="submit-label">${ submit_button }</span>
       </button>
+      % endif
       <div class="submission-feedback" id="submission_feedback_${short_id}">
         % if attempts_allowed:
           ${ungettext("You have used {num_used} of {num_total} attempt", "You have used {num_used} of {num_total} attempts", attempts_allowed).format(num_used=attempts_used, num_total=attempts_allowed)}

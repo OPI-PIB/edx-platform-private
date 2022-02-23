@@ -1,0 +1,8 @@
+---
+metadata:
+    display_name: Pytanie do autorefleksji
+    markdown: ""
+    showanswer: "never"
+    show_submit_button: False
+    weight: 0
+data: "<problem>Why there was an egg?</problem>"

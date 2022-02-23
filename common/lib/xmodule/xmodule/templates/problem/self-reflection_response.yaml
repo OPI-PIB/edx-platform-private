@@ -1,0 +1,14 @@
+---
+metadata:
+    display_name: Pytanie do autorefleksji i odp. zwrotną
+    markdown: ""
+    showanswer: "never"
+    weight: 0
+data: |
+      <problem>
+        <p>Why there was an egg?</p>
+        <stringresponse answer=".*." type="ci regexp">
+            <textline size="20"></textline>
+            <correcthint>Provides feedback when learners submit the correct response.</correcthint>
+        </stringresponse>
+      </problem>
