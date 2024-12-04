@@ -8,8 +8,8 @@
 # krystianlygas <krystian.lygas@gmail.com>, 2020
 # Agata Miszkurka <agata.miszkurka@opi.org.pl>, 2021
 # Paula Wasylów <Paula.Wasylow@opi.org.pl>, 2021
-# Emilia Dolega <emilia.dolega@opi.org.pl>, 2021
 # Małgorzata Kaczmarczyk-Koza <Malgorzata.Kaczmarczyk@opi.org.pl>, 2021
+# Emilia Dolega <emilia.dolega@opi.org.pl>, 2021
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2021-06-08 12:21+0000\n"
 "PO-Revision-Date: 2020-08-19 11:04+0000\n"
-"Last-Translator: Małgorzata Kaczmarczyk-Koza <Malgorzata.Kaczmarczyk@opi.org.pl>, 2021\n"
+"Last-Translator: Emilia Dolega <emilia.dolega@opi.org.pl>, 2021\n"
 "Language-Team: Polish (https://www.transifex.com/navoica/teams/104253/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4605,7 +4605,9 @@ msgstr "Dostępność kursu na platformie"
 
 #: lms/templates/courseware/course_about.html
 msgid "During this time, you will be able to earn a certificate of completion"
-msgstr "W tym czasie, będziesz mógł/mogła uzyskać zaświadczenie."
+msgstr ""
+"W tym terminie możesz zrealizować kurs i uzyskać zaświadczenie o jego "
+"ukończeniu"
 
 #: lms/templates/courseware/course_about.html
 msgid "Fill all fields in Schedule & Details Settings!"
@@ -5050,14 +5052,8 @@ msgid ""
 "be generated within {strong_start}24 hours{strong_end} of reaching the "
 "passing threshold. You will find it in {a_start}My Courses{a_end} tab."
 msgstr ""
-"Aby zaliczyć kurs, musisz osiągnąć {strong_start}próg "
-"zaliczeniowy{strong_end}, wykonując klasyfikowane zadania i testy w kursie "
-"(patrz: wykres poniżej). Po lewej stronie wykresu możesz zobaczyć, jaki jest"
-" minimalny próg zaliczeniowy (w procentach), a ostatnia kolumna wykresu to "
-"Twój łączny wynik z całego kursu.  {strong_start}Zaświadczenie{strong_end} "
-"zostanie wygenerowane w przeciągu {strong_start}24 godzin{strong_end} od "
-"momentu osiągnięcia progu zaliczeniowego. Znajdziesz je w zakładce "
-"{a_start}Moje kursy{a_end}."
+"Aby zaliczyć kurs, musisz osiągnąć {strong_start}próg zaliczeniowy{strong_end}, wykonując klasyfikowane zadania i testy w kursie (patrz: wykres poniżej). Po lewej stronie wykresu możesz zobaczyć, jaki jest minimalny próg zaliczeniowy (w procentach), a ostatnia kolumna wykresu to Twój łączny wynik z całego kursu.\n"
+"{strong_start}Zaświadczenie{strong_end} zostanie wygenerowane w przeciągu {strong_start}24 godzin{strong_end} od momentu osiągnięcia progu zaliczeniowego. Znajdziesz je pod przyciskiem \"Zaświadczenie\" w kafelku kursu w zakładce {a_start}Moje kursy{a_end}, "
 
 #: lms/templates/courseware/progress.html
 msgid "View Certificate"
@@ -10695,8 +10691,9 @@ msgstr "Ukończyłam/em kurs. Gdzie znajdę swoje zaświadczenie?"
 #: lms/templates/static_templates/faq.html
 msgid "FAQ_Answer4.3"
 msgstr ""
-"Odnośnik do zaświadczenia, o ile zostało już wygenerowane, jest dostępny z "
-"poziomu listy „Moich kursów”, pod przyciskiem „Wyświetl kurs”."
+"Wygenerowane zaświadczenia są dostępne z poziomu „Moich kursów”. Przycisk "
+"\"Zaświadczenie\" na dole kafelka kursu stanie się aktywny; po jego "
+"kliknięciu, będziesz mógł/mogła wyświetlić i pobrać zaświadczenie."
 
 #: lms/templates/static_templates/faq.html
 msgid "FAQ_Question4.4"
